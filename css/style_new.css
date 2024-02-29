@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #081420;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-nav .nav-item {
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.mt-6 {
+    margin-top: 10rem !important;
+}
+
+
+
+body {
+    background-color: #0f1014;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    background-color: transparent;
+}
+
+h5 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+h6 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+li {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.desText {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+/*Background Images*/
+
+.side-image {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+.left-image {
+    margin-left: 0px;
+    left: 0;
+}
+
+.right-image {
+    margin-right: 0px;
+    right: 0;
+}
+
+@media (max-width: 920px) {
+
+    .side-image {
+        display: none;
+    }
+}
+
+
+/*Demo Reel*/
+
+.videoSection {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoWrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/*Resume Page*/
+.aboutImg {
+    width: 85%;
+    border-radius: 200px 200px 200px 200px;
+}
+
+/*THE ANIMVIEWPOINT*/
+
+.card {
+    background-color: #c1d3df;
+    margin: 30px;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 14px 6px rgba(255, 255, 255, 0.7)
+}
+
+.card-body {
+    overflow: hidden;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 100%;
+}
+
+/*Contact page*/
+
+.center-form {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*Footer*/
+footer {
+    background-color: #0f1014;
+    padding: 20px 0;
+}
+
+footer section {
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #000;
+    margin: 0 10px;
+}
+
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer iframe {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+.fa-linkedin,
+.fa-instagram {
+    color: white;
+    font-size: 2rem;
+}
