@@ -99,27 +99,7 @@ h5 {
     margin: 5px;
 }
 
-h6 {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: transparent;
-}
-
-p {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: transparent;
-}
-
-li {
+.whiteText-1 {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
