@@ -1,0 +1,4 @@
+@mixin fontStyle($color: $colorFuente1, $font: $bodyFont){
+    color: $color;
+    font-family: $font;
+}

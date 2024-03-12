@@ -1,0 +1,30 @@
+/*CONTACT PAGE*/
+.center-form {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.subButton {
+    color: white;
+    background-color: #112a43;
+    border-color: #112a43;
+}
+
+.subButton:hover {
+    color: #fff;
+    background-color: #1e4e7e;
+    border-color: #1e4e7e;
+}
+
+.resButton {
+    color: white;
+    background-color: #1C252A;
+    border-color: #1C252A;
+}
+
+.resButton:hover {
+    color: #fff;
+    background-color: #3b4e58;
+    border-color: #3b4e58;
+}

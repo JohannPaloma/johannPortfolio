@@ -1,0 +1,7 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: map-get($bgColor , bgMain);
+}

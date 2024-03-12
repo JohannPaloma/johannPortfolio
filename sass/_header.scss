@@ -1,0 +1,32 @@
+/*NAVBAR*/
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: map-get($bgColor , bgNav);
+}
+
+.nav-link {
+    color: $colorFuente1;
+}
+
+.nav-link {
+    &:hover {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-nav .nav-item {
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: $colorFuente1;
+}

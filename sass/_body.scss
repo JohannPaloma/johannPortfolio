@@ -1,0 +1,100 @@
+
+/*NEW MARGINS*/
+.mt-6 {
+    margin-top: 10rem !important;
+}
+
+/*TEXT SETTINGS*/
+
+h1 {
+    @include fontStyle($colorFuente1, $titleFont);
+    font-size: 3.5rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    @include fontStyle;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    @include fontStyle;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+h5 {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+h6{
+    @include fontStyle;
+}
+
+p {
+    @include fontStyle;
+}
+
+li{
+    @include fontStyle;
+}
+
+a {
+    @include fontStyle($colorFuente2, $bodyFont);
+    text-decoration: none;
+}
+
+label{
+    @include fontStyle;
+}
+
+.fWeight-1 {
+    font-weight: 500;
+}
+
+.desText {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*BACKGROUND IMAGES*/
+
+.side-image {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+.left-image {
+    margin-left: 0px;
+    left: 0;
+}
+
+.right-image {
+    margin-right: 0px;
+    right: 0;
+}
+
+@media (max-width: 920px) {
+
+    .side-image {
+        display: none;
+    }
+}
