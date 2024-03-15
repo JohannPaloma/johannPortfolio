@@ -10,16 +10,13 @@
 
 .nav-link {
     color: $colorFuente1;
+    transition: all 0.5s ease;
 }
 
-.nav-link {
-    &:hover {
-        color: rgba(255, 255, 255, 0.5);
-    }
-}
 
 .navbar-brand img {
     max-height: 50px;
+    transition: all 0.5s ease;
 }
 
 .navbar-nav .nav-item {
