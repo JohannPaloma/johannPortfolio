@@ -47,6 +47,9 @@ h6{
 
 p {
     @include fontStyle;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 li{
@@ -81,6 +84,7 @@ label{
     top: 0;
     height: 100vh;
     z-index: -1;
+    filter: brightness(40%) contrast(90%);
 }
 
 .left-image {

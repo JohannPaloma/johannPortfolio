@@ -6,7 +6,7 @@
 /*NAVBAR*/
 .nav-link:hover {
   color: white !important;
-  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 4px 4px rgba(255, 255, 255, 0.5);
   transform: translateY(-2px);
   transition: all 0.2s ease;
 }
@@ -131,6 +131,9 @@ h6 {
 p {
   color: white;
   font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 li {
@@ -166,6 +169,7 @@ label {
   top: 0;
   height: 100vh;
   z-index: -1;
+  filter: brightness(40%) contrast(90%);
 }
 
 .left-image {
@@ -185,7 +189,7 @@ label {
 }
 /*DEMO REEL*/
 .videoSection {
-  width: 90%;
+  width: 75%;
   height: auto;
   display: flex;
   justify-content: center;
